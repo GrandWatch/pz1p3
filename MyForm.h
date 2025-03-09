@@ -87,11 +87,11 @@ namespace Project4 {
 			// 
 			// button1
 			// 
-			this->button1->Location = System::Drawing::Point(322, 273);
+			this->button1->Location = System::Drawing::Point(358, 69);
 			this->button1->Name = L"button1";
 			this->button1->Size = System::Drawing::Size(75, 39);
 			this->button1->TabIndex = 0;
-			this->button1->Text = L"button1";
+			this->button1->Text = L"+";
 			this->button1->UseVisualStyleBackColor = true;
 			this->button1->Click += gcnew System::EventHandler(this, &MyForm::button1_Click);
 			// 
@@ -104,44 +104,44 @@ namespace Project4 {
 			// 
 			// textBox2
 			// 
-			this->textBox2->Location = System::Drawing::Point(216, 123);
+			this->textBox2->Location = System::Drawing::Point(214, 123);
 			this->textBox2->Name = L"textBox2";
 			this->textBox2->Size = System::Drawing::Size(100, 26);
 			this->textBox2->TabIndex = 2;
 			// 
 			// button2
 			// 
-			this->button2->Location = System::Drawing::Point(322, 330);
+			this->button2->Location = System::Drawing::Point(358, 126);
 			this->button2->Name = L"button2";
 			this->button2->Size = System::Drawing::Size(75, 32);
 			this->button2->TabIndex = 3;
-			this->button2->Text = L"button2";
+			this->button2->Text = L"-";
 			this->button2->UseVisualStyleBackColor = true;
 			this->button2->Click += gcnew System::EventHandler(this, &MyForm::button2_Click);
 			// 
 			// button3
 			// 
-			this->button3->Location = System::Drawing::Point(429, 273);
+			this->button3->Location = System::Drawing::Point(465, 69);
 			this->button3->Name = L"button3";
 			this->button3->Size = System::Drawing::Size(75, 39);
 			this->button3->TabIndex = 4;
-			this->button3->Text = L"button3";
+			this->button3->Text = L"*";
 			this->button3->UseVisualStyleBackColor = true;
 			this->button3->Click += gcnew System::EventHandler(this, &MyForm::button3_Click);
 			// 
 			// button4
 			// 
-			this->button4->Location = System::Drawing::Point(429, 330);
+			this->button4->Location = System::Drawing::Point(465, 126);
 			this->button4->Name = L"button4";
 			this->button4->Size = System::Drawing::Size(75, 32);
 			this->button4->TabIndex = 5;
-			this->button4->Text = L"button4";
+			this->button4->Text = L"/";
 			this->button4->UseVisualStyleBackColor = true;
 			this->button4->Click += gcnew System::EventHandler(this, &MyForm::button4_Click);
 			// 
 			// button5
 			// 
-			this->button5->Location = System::Drawing::Point(78, 359);
+			this->button5->Location = System::Drawing::Point(358, 185);
 			this->button5->Name = L"button5";
 			this->button5->Size = System::Drawing::Size(75, 39);
 			this->button5->TabIndex = 6;
@@ -151,67 +151,67 @@ namespace Project4 {
 			// 
 			// button6
 			// 
-			this->button6->Location = System::Drawing::Point(537, 330);
+			this->button6->Location = System::Drawing::Point(568, 126);
 			this->button6->Name = L"button6";
-			this->button6->Size = System::Drawing::Size(75, 32);
+			this->button6->Size = System::Drawing::Size(93, 68);
 			this->button6->TabIndex = 7;
-			this->button6->Text = L"button6";
+			this->button6->Text = L"exp((1 / y) * log(x));";
 			this->button6->UseVisualStyleBackColor = true;
 			this->button6->Click += gcnew System::EventHandler(this, &MyForm::button6_Click);
 			// 
 			// button7
 			// 
-			this->button7->Location = System::Drawing::Point(537, 273);
+			this->button7->Location = System::Drawing::Point(568, 69);
 			this->button7->Name = L"button7";
-			this->button7->Size = System::Drawing::Size(75, 39);
+			this->button7->Size = System::Drawing::Size(93, 39);
 			this->button7->TabIndex = 8;
-			this->button7->Text = L"button7";
+			this->button7->Text = L"pow(x, 2)";
 			this->button7->UseVisualStyleBackColor = true;
 			this->button7->Click += gcnew System::EventHandler(this, &MyForm::button7_Click);
 			// 
 			// button8
 			// 
-			this->button8->Location = System::Drawing::Point(636, 273);
+			this->button8->Location = System::Drawing::Point(667, 69);
 			this->button8->Name = L"button8";
-			this->button8->Size = System::Drawing::Size(75, 39);
+			this->button8->Size = System::Drawing::Size(87, 41);
 			this->button8->TabIndex = 9;
-			this->button8->Text = L"button8";
+			this->button8->Text = L"sin(x)";
 			this->button8->UseVisualStyleBackColor = true;
 			this->button8->Click += gcnew System::EventHandler(this, &MyForm::button8_Click);
 			// 
 			// button9
 			// 
-			this->button9->Location = System::Drawing::Point(636, 330);
+			this->button9->Location = System::Drawing::Point(667, 126);
 			this->button9->Name = L"button9";
-			this->button9->Size = System::Drawing::Size(87, 32);
+			this->button9->Size = System::Drawing::Size(87, 34);
 			this->button9->TabIndex = 10;
-			this->button9->Text = L"button9";
+			this->button9->Text = L"cos(x)";
 			this->button9->UseVisualStyleBackColor = true;
 			this->button9->Click += gcnew System::EventHandler(this, &MyForm::button9_Click);
 			// 
 			// button10
 			// 
-			this->button10->Location = System::Drawing::Point(743, 273);
+			this->button10->Location = System::Drawing::Point(774, 69);
 			this->button10->Name = L"button10";
-			this->button10->Size = System::Drawing::Size(82, 39);
+			this->button10->Size = System::Drawing::Size(82, 41);
 			this->button10->TabIndex = 11;
-			this->button10->Text = L"button10";
+			this->button10->Text = L"pow(y, x)";
 			this->button10->UseVisualStyleBackColor = true;
 			this->button10->Click += gcnew System::EventHandler(this, &MyForm::button10_Click);
 			// 
 			// button11
 			// 
-			this->button11->Location = System::Drawing::Point(740, 330);
+			this->button11->Location = System::Drawing::Point(771, 126);
 			this->button11->Name = L"button11";
-			this->button11->Size = System::Drawing::Size(85, 32);
+			this->button11->Size = System::Drawing::Size(85, 34);
 			this->button11->TabIndex = 12;
-			this->button11->Text = L"button11";
+			this->button11->Text = L"log10(x)";
 			this->button11->UseVisualStyleBackColor = true;
 			this->button11->Click += gcnew System::EventHandler(this, &MyForm::button11_Click);
 			// 
 			// textBox3
 			// 
-			this->textBox3->Location = System::Drawing::Point(247, 226);
+			this->textBox3->Location = System::Drawing::Point(214, 188);
 			this->textBox3->Name = L"textBox3";
 			this->textBox3->Size = System::Drawing::Size(100, 26);
 			this->textBox3->TabIndex = 13;
@@ -221,27 +221,27 @@ namespace Project4 {
 			this->label1->AutoSize = true;
 			this->label1->Location = System::Drawing::Point(112, 69);
 			this->label1->Name = L"label1";
-			this->label1->Size = System::Drawing::Size(51, 20);
+			this->label1->Size = System::Drawing::Size(18, 20);
 			this->label1->TabIndex = 14;
-			this->label1->Text = L"label1";
+			this->label1->Text = L"a";
 			// 
 			// label2
 			// 
 			this->label2->AutoSize = true;
 			this->label2->Location = System::Drawing::Point(111, 123);
 			this->label2->Name = L"label2";
-			this->label2->Size = System::Drawing::Size(51, 20);
+			this->label2->Size = System::Drawing::Size(18, 20);
 			this->label2->TabIndex = 15;
-			this->label2->Text = L"label2";
+			this->label2->Text = L"b";
 			// 
 			// label3
 			// 
 			this->label3->AutoSize = true;
-			this->label3->Location = System::Drawing::Point(162, 222);
+			this->label3->Location = System::Drawing::Point(112, 194);
 			this->label3->Name = L"label3";
-			this->label3->Size = System::Drawing::Size(51, 20);
+			this->label3->Size = System::Drawing::Size(48, 20);
 			this->label3->TabIndex = 16;
-			this->label3->Text = L"label3";
+			this->label3->Text = L"result";
 			// 
 			// MyForm
 			// 
@@ -280,7 +280,7 @@ namespace Project4 {
 		double a, b, s;
 		a = Convert::ToDouble(textBox1->Text);
 		b = Convert::ToDouble(textBox2->Text);
-		s = a + b; // Віднімання
+		s = a + b; // add
 		textBox3->Text = Convert::ToString(s);
 	}
 	private: System::Void button2_Click(System::Object^ sender, System::EventArgs^ e) {
